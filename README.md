@@ -1,2 +1,4 @@
 # nickel
-Nickel - Banco Digital (HTML CSS Figma - Projeto de Estudo)
+Nickel - Carteira Digital
+
+Este é um projeto de estudo de HTML, CSS e Figma.
