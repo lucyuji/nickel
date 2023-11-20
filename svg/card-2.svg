@@ -1,5 +1,5 @@
 <svg width="324" height="474" id="card-img-2" viewBox="0 0 324 474" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="324" height="474" rx="60" fill="#D9D9D9"/>
-<image class="card-img-3" href="../img/card-img-3.jpg" width="324" height="474"/>
-<image class="card-img-4" href="../img/card-img-4.jpg" width="324" height="474"/>
+<image class="card-img-3" href="img/card-img-3.jpg" width="324" height="474"/>
+<image class="card-img-4" href="img/card-img-4.jpg" width="324" height="474"/>
 </svg>
