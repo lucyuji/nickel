@@ -1,0 +1,218 @@
+.dropshadow{
+  filter: drop-shadow(0px 3px 5px rgba(249, 189, 92, 0.15))
+  drop-shadow(0px 7px 10px rgba(249, 189, 92, 0.25)) drop-shadow(0px 16px 25px rgba(249, 189, 92, 0.35));
+}
+
+  .bg-icon-transfer{
+    &::after{
+      background-image: url('../svg/icon-transfer.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .bg-icon-cash{
+    &::after{
+      background-image: url('../svg/icon-cash.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .bg-icon-check{
+    &::after{
+      background-image: url('../svg/icon-check.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      width: 40px;
+      height: 40px;
+
+      top: 16px;
+      left: 8px;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+
+  .bg-icon-mobile{
+    &::after{
+      background-image: url('../svg/icon-mobile.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      width: 72px;
+      height: 72px;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .bg-icon-time{
+    &::after{
+      background-image: url('../svg/icon-time.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      width: 72px;
+      height: 72px;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .bg-icon-config{
+    &::after{
+      background-image: url('../svg/icon-config.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      width: 72px;
+      height: 72px;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .icon{
+    filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+    transition: .5s ease;
+    cursor: pointer;
+
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
+
+  .bg-icon-cart{
+    &::after{
+      background-image: url('../svg/icon-cart.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      width: 72px;
+      height: 72px;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .bg-icon-contactless{
+    &::after{
+      background-image: url('../svg/icon-contactless.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      width: 72px;
+      height: 72px;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .bg-icon-card{
+    &::after{
+      background-image: url('../svg/icon-card.svg');
+      background-size: cover;
+      transition: .5s ease;
+
+      width: 72px;
+      height: 72px;
+
+      cursor: pointer;
+
+      filter: drop-shadow(0px 0px 8px rgba(255,174,86,0.2));
+
+    }
+    &:hover{
+      &::after{
+        transform: scale(1.05);
+        filter: drop-shadow(0px 0px 10px rgba(255,174,86,0.6));
+      }
+    }
+  }
+
+  .icon-networks{
+    max-width: 48px;
+    padding: 4px;
+    @include responsive(s){
+      margin-top: 20px;
+    }
+  }

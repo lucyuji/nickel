@@ -1,0 +1,96 @@
+.box{
+  max-width: $container-xl;
+  margin: 0 auto;
+
+  padding: 0px 24px;
+}
+
+.container-swiper{
+  overflow: hidden;
+  max-width: $container-xl;
+  margin: 0 auto;
+
+  padding: 96px 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+  position: relative;
+}
+
+.swiper-container{
+  width: 100%;
+  position: relative;
+}
+
+.swiper-slide{
+  max-width: 420px;
+
+  padding: 24px 36px;
+  border-radius: 24px;
+
+  background-color: $white-light;
+
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.button-next{
+  position: absolute;
+  right: 24px;
+  top: -64px;
+
+  width: 48px;
+  height: 48px;
+
+  cursor: pointer;
+  background-image: url('../svg/icon-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.button-prev{
+  position: absolute;
+  right: 88px;
+  top: -64px;
+
+  width: 48px;
+  height: 48px;
+
+  cursor: pointer;
+  background-image: url('../svg/icon-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: rotate(180deg);
+}
+
+.photo-profile{
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.photo-1{
+  background-image: url('../img/card-img-1.jpg');
+}
+.photo-2{
+  background-image: url('../img/card-img-1.jpg');
+}
+.photo-3{
+  background-image: url('../img/card-img-1.jpg');
+}
+.photo-4{
+  background-image: url('../img/card-img-1.jpg');
+}
+.photo-5{
+  background-image: url('../img/card-img-1.jpg');
+}
+

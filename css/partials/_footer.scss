@@ -1,0 +1,15 @@
+.footer-mobile{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+
+  @include responsive(s){
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 40px 24px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
