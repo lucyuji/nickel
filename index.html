@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Zilla+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- svg inject script -->
+  <script src="js/svg-inject.min.js"></script>
+
+  <!--swiper.js-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <title>Project Nickel</title>
+</head>
+
+<body>
+  <header id="header">
+    <!--NAV BAR MOBILE-->
+    <nav class="navbar-mobile">
+      <div class="bx" id="bx"></div>
+      <div class="logo">
+        <a href="">
+          <img src="svg/Nickel-Logo.svg" alt="" onload="SVGInject(this)">
+        </a>
+      </div>
+      <a href="#">Login</a>
+    </nav>
+
+    <nav class="navbar-desktop" data-aos="fade-up">
+      <div class="navbar-desktop-item-1">
+        <div class="logo">
+          <a href="">
+            <img src="svg/Nickel-Logo.svg" alt="" onload="SVGInject(this)">
+          </a>
+        </div>
+        <ul class="menu-desktop">
+          <li class="menu-item" id="menu-item-1">
+            <a href="" class="nav-link-desktop">Nickel</a>
+            <ul class="dropdown-menu" id="dropdown-item-1">
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Sobre</a></li>
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Dúvidas</a></li>
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Contato</a></li>
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Mapa</a></li>
+            </ul>
+          </li>
+          <li class="menu-item" id="menu-item-2">
+            <a href="" class="nav-link-desktop">Carteira Nickel</a>
+            <ul class="dropdown-menu" id="dropdown-item-2">
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Trocas</a></li>
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Depósitos</a></li>
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Parceiros</a></li>
+            </ul>
+          </li>
+          <li class="menu-item" id="menu-item-3">
+            <a href="" class="nav-link-desktop">Para Você</a>
+            <ul class="dropdown-menu" id="dropdown-item-3">
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Comunidade</a></li>
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Promoções</a></li>
+              <li class="dropdown-item"><a href="#" class="nav-link-dropdown">Novidades</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-desktop-item-2">
+        <a href="#" class="btn mr-2">Quero ser Nickel</a>
+        <a href="#">Login</a>
+      </div>
+    </nav>
+
+    <nav class="menu-mobile" id="menu-mobile">
+      <ul class="nav-list-mobile">
+        <li class="mb-1"><a href="" class="nav-link-mobile">Nickel</a></li>
+        <li class="mb-1"><a href="" class="nav-link-mobile">Carteira Digital</a></li>
+        <li class="mb-1"><a href="" class="nav-link-mobile">Aonde Utilizar</a></li>
+        <li class="mb-1"><a href="" class="nav-link-mobile">Quero ser Nickel</a></li>
+        <li class="mb-1"><a href="" class="nav-link-mobile">Redes Sociais</a></li>
+        <li class="mt-3 flex-center">
+          <a href=""><img src="svg/icon-facebook.svg" class="mx-1" alt="" onload="SVGInject(this)"></a>
+          <a href=""><img src="svg/icon-instagram.svg" alt="" class="mx-1" onload="SVGInject(this)"></a>
+          <a href=""><img src="svg/icon-twitter.svg" alt="" class="mx-1" onload="SVGInject(this)"></a>
+          <a href=""><img src="svg/icon-youtube.svg" alt="" class="mx-1" onload="SVGInject(this)"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="bg-home">
+    <img src="svg/bg-hero.svg" class="svg-bg-home" alt="" onload="SVGInject(this)">
+  </div>
+  <main class="container hero pb-4">
+    <div class="flex-item-1 py-3 content" data-aos="fade-up" data-aos-delay="200">
+      <h1>Simplifique como usar as moedas que sobram no seu bolso</h1>
+      <p class="my-2">Além de retorna-las para circulação, o valor das suas moedas retornam como créditos para gasta-las nos comércios e shopping próximos de você.</p>
+      <div class="flex-start">
+        <a href="" class="btn">Quero ser Nickel</a>
+        <a href="" class=""><img src="svg/appstore.svg" class="ml-1" alt="" onload="SVGInject(this)"></a>
+        <a href="" class=""><img src="svg/playstore.svg" class="ml-1" alt="" onload="SVGInject(this)"></a>
+      </div>
+    </div>
+
+    <div class="flex-item-3 div-card flex-center py-4" data-aos="fade-up" data-aos-delay="400">
+
+      <img src="svg/icon-card.svg" class="icon-card-hero dropshadow" alt="" onload="SVGInject(this)">
+      <img src="svg/icon-transfer.svg" class="icon-transfer-hero dropshadow" alt="" onload="SVGInject(this)">
+      <img src="svg/icon-contactless.svg" class="icon-contactless-hero dropshadow" alt="" onload="SVGInject(this)">
+      <div class="card-container flex-center">
+        <div class="card card-front"></div>
+        <div class="card card-back"></div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <!-- Lista check -->
+
+  <section class="container">
+    <div class="flex-item-4 flex-column content" data-aos="fade-up" data-aos-delay="0">
+      <h5>Como funciona</h5>
+      <h3>Suas moedas valem <span>Nickels</span>.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque vulputate at mattis nibh nulla est. Pharetra, eget purus tortor nibh porta ipsum enim urna viverra.</p>
+
+      <ul class="list">
+        <li class="list-item bg-icon-check mt-3">
+          <strong>Retorne as moedas à circulação</strong>
+          <p>Lojas e comércios recebem as moedas para usarem como troco.</p>
+        </li>
+        <li class="list-item bg-icon-check">
+          <strong>100% Gratuito</strong>
+          <p>Isso mesmo, você não paga por nada para guardar seus Nickels</p>
+        </li>
+        <li class="list-item bg-icon-check">
+          <strong>Descontos e Promoções exclusivas</strong>
+          <p>Os nossos parceiros disponibilizam ofertas especiais para quem usa Nickel</p>
+        </li>
+      </ul>
+      <p class="link">Confira os benefícios</p>
+    </div>
+    <div class="flex-item-3 mx-2" data-aos="fade-up" data-aos-delay="200">
+      <img src="/svg/card-1.svg" alt="" onload="SVGInject(this)">
+    </div>
+    <div class="flex-item-1 flex-column mx-2 my-2" data-aos="fade-up" data-aos-delay="400">
+      <img src="/svg/card-2.svg" class="my-2" alt="" onload="SVGInject(this)">
+      <img src="/svg/card-3.svg" alt="" onload="SVGInject(this)">
+    </div>
+  </section>
+
+
+  <!--section best-->
+  <section class="container" data-aos="fade-up" data-aos-delay="0">
+    <div class="best px-3 py-4 content">
+      <div class="flex-item-auto">
+        <h5>O Melhor</h5>
+        <h2>Por que Nickel</h2>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-cash.svg" class="icon w-auto" alt="">
+        <p class="mt-2 bold">Guarde seu troco de forma prática</p>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-transfer.svg" class="icon w-auto" alt="">
+        <p class="mt-2 bold">Retorne as moedas para circulação</p>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-card.svg" class="icon w-auto" alt="">
+        <p class="mt-2 bold">Conta e cartão 100% gratuitos</p>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-discount.svg" class="icon w-auto" alt="">
+        <p class="mt-2 bold">Descontos em lojas exclusivas</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--section digital account-->
+  <section class="container">
+    <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="200">
+      <img src="svg/nickel-app.svg" alt="" onload="SVGInject(this)">
+    </div>
+    <div class="flex-item-1 content" data-aos="fade-up" data-aos-delay="0">
+      <h5>CONTA DIGITAL</h5>
+      <h2 class="mt-2">Tudo pelo App.</h2>
+      <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque vulputate at mattis nibh nulla est. Pharetra, eget purus tortor nibh porta ipsum enim urna viverra.</p>
+      <ul class="list my-2 pt-2">
+        <li class="list-item bg-icon-mobile">
+          <strong>Tudo na palma da sua mão</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit. Tellus justo, eu pharetra lectus sed.</p>
+        </li>
+        <li class="list-item bg-icon-time">
+          <strong>Sem filas ou burocracias</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit. Tellus justo, eu pharetra lectus sed.</p>
+        </li>
+        <li class="list-item bg-icon-config">
+          <strong>Tudo no App</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit. Tellus justo, eu pharetra lectus sed.</p>
+        </li>
+      </ul>
+      <div><a href="" class="link">Seguro e sem complicações</a></div>
+    </div>
+  </section>
+
+  <!-- section CARD -->
+
+  <section class="container">
+    <div class="flex-item-1 content" data-aos="fade-up" data-aos-delay="0">
+      <h5>SEUS NICKELS</h5>
+      <h2 class="mt-2">Use em diversas redes</h2>
+      <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et autem dolores dolor amet quod deleniti! Reiciendis quasi nostrum illum delectus.</p>
+      <ul class="list my-2 pt-2">
+        <li class="list-item bg-icon-cart">
+          <strong>Centro comerciais e Shoppings</strong>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, dolore?</p>
+        </li>
+        <li class="list-item bg-icon-contactless">
+          <strong>Tecnologia contactless</strong>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, dolore?
+            adipisicing elit. Beatae, dolore?
+          </p>
+        </li>
+        <li class="list-item bg-icon-card">
+          <strong>Cartão virtual</strong>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, dolore?</p>
+        </li>
+      </ul>
+      <div>
+        <a class="link">Saiba mais</a>
+      </div>
+    </div>
+     
+
+    <div class="flex-item-1" data-aos="fade-up" data-aos-delay="200">
+      <img src="svg/nickel-card-section.svg" alt="" onload="SVGInject(this)">
+    </div>
+  </section>
+
+
+
+  <!--swiper section-->
+  <section class="box text-center" data-aos="fade-up" data-aos-delay="0">
+    <h5>Depoimentos</h5>
+    <h2>Todos usam Nickel</h2>
+  </div>
+  </section>
+  <section class="container-swiper">
+    <div class="swiper-container content" data-aos="fade-up" data-aos-delay="200">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="photo-profile photo-1"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Donec lacinia dignissim nunc, ultricies imperdiet lectus efficitur venenatis. Vestibulum iaculis efficitur augue, nec posuere nunc placerat vel. Proin dictum lectus dolor, accumsan e</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-2"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Donec lacinia dignissim nunc, ultricies imperdiet lectus efficitur venenatis. Vestibulum iaculis efficitur augue, nec posuere nunc placerat vel. Proin dictum lectus dolor, accumsan elemen</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-3"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Donec lacinia dignissim nunc, ultricies imperdiet lectus efficitur venenatis. Vestibulum iaculis efficitur </p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-4"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Donec lacinia dignissim nunc, ultricies imperdiet lectus efficitur venenatis. Vestibulum iaculis efficitur augue, nec posuere nunc placerat vel. Proin dictum lectus dolor, accumsan</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-5"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Donec lacinia dignissim nunc, ultricies imperdiet sdkafjhljsdfç sadfjçlskdjflectus efficitur asd enenatis. Vestibulum iaculis e</p>
+        </div>
+      </div>
+
+      <div class="button-next"></div>
+      <div class="button-prev"></div>
+ 
+    </div>
+  </section>
+
+
+<section class="container">
+  <div class="flex-item-1 content" data-aos="fade-up" data-aos-delay="0">
+    <h5>FAÇA SUA CONTA</h5>
+    <h2 class="mt-2">Baixe. É gratuito</h2>
+    <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, autem laboriosam. Esse exercitationem vitae natus libero minima ab id tenetur!</p>
+    <div class="flex-start my-2 pt-2">
+      <a href=""> <img src="svg/apple-download-box.svg" class="button-app w-auto" alt="" onload="SVGInject(this)"></a>
+      <a href=""><img src="svg/playstore-download-box.svg" class="button-app w-auto ml-2" alt="" onload="SVGInject(this)"></a>
+    </div>
+  </div>
+  <div class="flex-item-1" data-aos="fade-up" data-aos-delay="200">
+    <img src="svg/nickel-app-icon.svg" class="w-100" alt="" onload="SVGInject(this)">
+  </div>
+</section>
+  
+<!--section invite-->
+<div class="bg-invite relative flex-center" data-aos="fade-up" data-aos-delay="0">
+  <img src="svg/bg-final-section.svg" class="w-auto svg-invite" alt="" onload="SVGInject(this)">
+    <section class="container">  
+      <div class="flex-item-1 flex-start flex-column">
+        <h5>CARTEIRA NICKEL</h5>
+        <h2 class="mt-2">Uma nova forma de guardar suas moedas!</h2>
+        <p class="my-2 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi animi mollitia voluptatem, laboriosam numquam sint non corrupti reprehenderit nulla error velit consequuntur rem adipisci tenetur sed excepturi sit est accusamus.</p>
+        <a href="" class="btn">Quero ser Nickel</a>
+      </div>
+    </section>
+</div>
+
+<footer>
+  <section class="container footer-mobile">
+    <div>
+      <h4 class="color-white weight-light">Nickel</h4>
+      <ul class="list mt-2 pt-2">
+        <li><a href="">Sobre nós</a></li>
+        <li><a href="">Perguntas frequentes</a></li>
+        <li><a href="">Contato</a></li>
+        <li><a href="">Aonde utilizar</a></li>
+        <li><a href="">Faça parte</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="color-white weight-light">Produtos</h4>
+      <ul class="list mt-2 pt-2">
+        <li><a href="">Carteira Nickel</a></li>
+        <li><a href="">Trocas e Devoluções</a></li>
+        <li><a href="">Guarda Nickels</a></li>
+        <li><a href="">Lojas Parceiras</a></li>
+        <li><a href="">Descontos</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="color-white weight-light">Fale Conosco</h4>
+      <ul class="list mt-2 pt-2">
+        <li><a href="">0800 0000 0000</a></li>
+        <li><a href="">Sobre nós</a></li>
+        <li><a style="word-break: break-all;" href="">meajuda@nickel.com.br</a></li>
+        <li><a href="">Atendimento 24h</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="color-white weight-light">Explore Mais</h4>
+      <ul class="list mt-2 pt-2">
+        <li><a href="">Comunidade</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Newsletter</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="color-white weight-light">Baixe o App</h4>
+      <ul class="list">
+        <div class="mt-2 pt-2 flex-start">
+          <a href=""> <img src="svg/apple-download-box.svg" class="button-app" alt="" onload="SVGInject(this)"></a>
+          <a href=""><img src="svg/playstore-download-box.svg" class="button-app ml-2" alt="" onload="SVGInject(this)"></a>
+        </div>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container flex-spacebetween py-3 bt-orange">
+    <div class="flex-start">
+      <img src="svg/nickel-logo-white.svg" style="max-width: 96px;" alt="">
+      <p style="font-size:11px" class="color-white ml-2"">Nickel Pagamentos S.A. 14.351.421/0001-00<br>
+        Rua endereço exemplo, 00 - Londrina, PR - 00000-000</p>
+    </div>
+
+    <div class="flex-start">
+      <a href=""><img src="svg/icon-facebook.svg" alt="" class="icon-networks mx-1" onload="SVGInject(this)"></a>
+      <a href=""><img src="svg/icon-youtube.svg" alt="" class="icon-networks mx-1" onload="SVGInject(this)"></a>
+      <a href=""><img src="svg/icon-instagram.svg" alt="" class="icon-networks mx-1" onload="SVGInject(this)"></a>
+      <a href=""><img src="svg/icon-twitter.svg" alt="" class="icon-networks mx-1" onload="SVGInject(this)"></a>
+    </div>
+  </section>
+</footer>
+
+  <!-- JS -->
+  <script src="js/app.js"></script>
+  <!--scroll library-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    AOS.init({
+      easing: "ease-out-quart",
+      duration: 500,
+      once: true
+    });
+</script>
+
+</body>
+</html>

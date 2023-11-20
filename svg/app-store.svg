@@ -1,0 +1,42 @@
+<svg width="168" height="54" viewBox="0 0 168 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 587">
+<g id="Rectangle 894" filter="url(#filter0_ddd_531_84)">
+<rect width="168" height="54" rx="16" fill="#FFFDFA"/>
+</g>
+<text id="Download via" fill="#171716" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="10" letter-spacing="0em"><tspan x="64" y="22.87">Download via</tspan></text>
+<text id="Apple Store" fill="#171716" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="64" y="37.031">Apple Store</tspan></text>
+<g id="Vector 40">
+<path d="M37.0097 27.8722C36.8389 24.858 38.9487 21.7813 42.0511 21.7813C42.7655 21.7813 43.0895 21.9505 43.8676 22.1971C44.2842 22.3291 44.9902 22.696 45.3984 22.696C45.8066 22.696 46.2964 22.4257 46.9572 22.1789C47.8946 21.8287 48.449 21.7913 48.9906 21.7813C50.8072 21.7813 52.1408 22.5548 52.9911 23.7562C51.5876 24.6864 50.848 25.8142 50.8071 27.6436C50.8071 29.3066 51.8481 30.9281 53.5217 31.6557C53.1135 33.4019 50.9092 36.9983 49.0927 36.9983C48.4689 36.9619 48.0856 36.8628 47.3578 36.5825C46.8155 36.3404 46.0923 36.1667 45.6229 36.1667C45.133 36.146 44.584 36.3077 43.8982 36.5825C43.3165 36.8156 42.9699 36.9479 42.1735 36.9983C40.6631 37.0937 37.3123 33.2148 37.0097 27.8722Z" fill="url(#paint0_linear_531_84)"/>
+<path d="M46.3781 18.5383C45.5355 19.4625 45.2147 20.6795 45.2759 21.7813C46.6638 21.6774 47.6231 21.0953 48.5008 20.0143C49.3784 18.9333 49.3849 18.1478 49.3784 17C48.3569 17.1693 47.1741 17.6652 46.3781 18.5383Z" fill="url(#paint1_linear_531_84)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_ddd_531_84" x="-24.1177" y="-8.74265" width="216.235" height="102.235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2.30969"/>
+<feGaussianBlur stdDeviation="1.81152"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.976471 0 0 0 0 0.741176 0 0 0 0 0.360784 0 0 0 0.03 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_531_84"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6.38599"/>
+<feGaussianBlur stdDeviation="5.00862"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.976471 0 0 0 0 0.741176 0 0 0 0 0.360784 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_531_84" result="effect2_dropShadow_531_84"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="15.375"/>
+<feGaussianBlur stdDeviation="12.0588"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.976471 0 0 0 0 0.741176 0 0 0 0 0.360784 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_531_84" result="effect3_dropShadow_531_84"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_531_84" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_531_84" x1="51.6933" y1="17.1295" x2="34.9798" y2="34.1251" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8400"/>
+<stop offset="1" stop-color="#FFAE56"/>
+</linearGradient>
+<linearGradient id="paint1_linear_531_84" x1="51.6933" y1="17.1295" x2="34.9798" y2="34.1251" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8400"/>
+<stop offset="1" stop-color="#FFAE56"/>
+</linearGradient>
+</defs>
+</svg>

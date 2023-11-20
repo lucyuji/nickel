@@ -1,0 +1,14 @@
+<svg viewBox="0 0 168 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="playstore-download-box">
+<rect id="Rectangle 1004" x="0.5" y="0.5" width="167" height="53" rx="15.5" fill="#FFFDFA" stroke="#FFAE56"/>
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M35.4104 17.2083C35.16 17.4664 35 17.82 35 18.2294V35.3578C35 35.8292 35.212 36.2265 35.53 36.4893L45.1107 26.9086L35.4104 17.2083ZM46.1512 27.9491L37.8501 36.2502L48.2634 30.0613L46.1512 27.9491ZM49.5687 29.2855L47.1917 26.9086L49.7129 24.3874L51.6331 25.5287C52.5927 26.099 52.5927 27.4882 51.6331 28.0586L49.5687 29.2855ZM46.1512 25.8681L37.2831 17L48.4077 23.6117L46.1512 25.8681Z" fill="url(#paint0_linear_531_85)"/>
+<text id="Download via" fill="#171716" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="10" letter-spacing="0em"><tspan x="65" y="22.87">Download via</tspan></text>
+<text id="Google Play" fill="#171716" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="66" y="37.031">Google Play</tspan></text>
+</g>
+<defs>
+<linearGradient id="paint0_linear_531_85" x1="50.4325" y1="17.1262" x2="34.2116" y2="34.9044" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8400"/>
+<stop offset="1" stop-color="#FFAE56"/>
+</linearGradient>
+</defs>
+</svg>
